@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Divideuti from "./Divideuti";
 import Spacebw from "./Spacebw";
 import Spacebw1 from "./Spacebw1";
 
@@ -42,6 +43,7 @@ function App() {
       </div>
       {page === "space1" && <Spacebw />}
       {page === "space2" && <Spacebw1 />}
+      {page === "divide1" && <Divideuti />}
     </div>
   );
 }

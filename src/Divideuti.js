@@ -2,11 +2,25 @@ import React from "react";
 
 function Divideuti(props) {
   return (
-    <div>
-      <li className="p-6 space-y-2 lis">
-        <div className="h-3 w-48 bg-gray-300 rounded"></div>
-        <div className="h-3 w-24 bg-gray-500 rounded"></div>
-      </li>
+    <div className="mt-5 mx-auto bg-white w-2/4 h-80 rounded-lg">
+      <ul className="list-none divide-y-2 divide-red-600">
+        <li className="p-6 space-y-2">
+          <div className="h-3 w-48 bg-gray-300 rounded"></div>
+          <div className="h-3 w-24 bg-gray-500 rounded"></div>
+        </li>
+        <li className="p-6 space-y-2">
+          <div className="h-3 w-48 bg-gray-300 rounded"></div>
+          <div className="h-3 w-24 bg-gray-500 rounded"></div>
+        </li>
+        <li className="p-6 space-y-2">
+          <div className="h-3 w-48 bg-gray-300 rounded"></div>
+          <div className="h-3 w-24 bg-gray-500 rounded"></div>
+        </li>
+        <li className="p-6 space-y-2">
+          <div className="h-3 w-48 bg-gray-300 rounded"></div>
+          <div className="h-3 w-24 bg-gray-500 rounded"></div>
+        </li>
+      </ul>
     </div>
   );
 }
