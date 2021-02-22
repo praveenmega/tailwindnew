@@ -2,7 +2,7 @@ import React from "react";
 
 function Divideuti(props) {
   return (
-    <div className="mt-5 mx-auto bg-white w-2/4 h-80 rounded-lg">
+    <div className="mt-5 mx-auto bg-white w-2/4 rounded-lg">
       <ul className="list-none divide-y-2 divide-red-600">
         <li className="p-6 space-y-2">
           <div className="h-3 w-48 bg-gray-300 rounded"></div>

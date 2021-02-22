@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Divideuti from "./Divideuti";
+import Divideuti1 from "./Divideuti1";
 import Spacebw from "./Spacebw";
 import Spacebw1 from "./Spacebw1";
 
@@ -16,6 +17,10 @@ function App() {
 
   const layout3ButtonHandler = () => {
     setPage("divide1");
+  };
+
+  const layout4ButtonHandler = () => {
+    setPage("divide2");
   };
 
   return (
@@ -40,10 +45,17 @@ function App() {
         >
           Layout 3
         </button>
+        <button
+          className="bg-red-400 text-white rounded-lg p-3 shadow-lg hover:bg-red-700"
+          onClick={layout4ButtonHandler}
+        >
+          Layout 4
+        </button>
       </div>
       {page === "space1" && <Spacebw />}
       {page === "space2" && <Spacebw1 />}
       {page === "divide1" && <Divideuti />}
+      {page === "divide2" && <Divideuti1 />}
     </div>
   );
 }
